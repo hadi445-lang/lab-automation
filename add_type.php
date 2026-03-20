@@ -1,4 +1,4 @@
-<?php
+ <?php
 include 'auth_check.php'; auth_check();
 $success = $error = '';
 

@@ -20,6 +20,7 @@ function login_user($username, $password, $conn) {
         $_SESSION['username']  = $row['username'];
         $_SESSION['full_name'] = $row['full_name'];
         $_SESSION['role']      = $row['role'];
+        
         return true;
     }
     return false;
